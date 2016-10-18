@@ -1,0 +1,12 @@
+//Responsibile for loading other components and parts of our app
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {AppComponent} from './app.component';
+
+@NgModule ({
+  imports: [BrowserModule],
+  declarions: [AppComponent];
+  bootstrap: [AppComponent]
+})
+
+export class AppModule {}
